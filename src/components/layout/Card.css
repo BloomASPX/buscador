@@ -1,0 +1,29 @@
+.mainCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    width: 500px;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.mainCard h2{
+    margin: 16px 0;
+    font-size: 2rem;
+}
+
+.mainCard span{
+    margin: 16px 0;
+    font-weight: bold;
+}
+
+@media (max-width: 505px) {
+    .mainCard {
+        width: 95%;
+        min-height: 250px;
+    }
+}
