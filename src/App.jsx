@@ -14,7 +14,7 @@ function App() {
    // "01001000/json/"
     
     if(input === ''){
-      alert("Preencha algum CEP!");
+      alert("Digite um CEP!");
     }
     try{
       const response = await api.get(`${input}/json`);
